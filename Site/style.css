@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+
+*{
+    
+}
+
+body {
+    color: white;
+    font-family: 
+}
+
+nav {
+    height: 40px;
+}
+
+nav ul {
+    list-style-image: none;
+    display: flex;
+    align-items: left;
+    justify-content: flex-end;
+
+}
+nav ul li {
+
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav img {
+    
+}
+header{
+    background-image: ;
+}
+
+h1{
+    color: blue;
+}
