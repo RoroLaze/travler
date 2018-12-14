@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+body {
+    margin: 0 auto;
+    font-family:'Lato';
+    color: white;
+
+}
+
+.nav {
+    position: absolute;
+}
+.travler {
+    font-family: "Anglena","sans-serif";
+    font-size: 2rem;
+
+}
+.company {
+    color: #b1dd04;
+    font-family: 'Lato';
+    font-size: 0.6em;
+}
+
+.navbar-brand {
+    margin: 0;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+    font-size: 0.8em;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+.logo {
+    display:flex;
+    width: 100px;
+    position: absolute;
+    left : 50%;
+    transform: translate(-50%);
+    top: 15%;
+    margin: 0;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+    color: #b1dd04;
+
+}
+
+.dropdown-menu {
+    top:40px;
+    background-color: #343a40;
+    border:none;
+}
+.dropdown-item {
+    color:#38c0c4;
+}
+
+header {
+    height: 100vh;
+    background-color: #343a40;
+    margin: auto;
+}
+
+.imgHeader {
+    height: 65vh;
+    background-image: url(photos/thomas-habr-185321-unsplash.jpg);
+    background-size: cover;
+
+    font-family: 'Anglena';
+    color: #ffffff;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.headerBoxes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+    padding: 0 200px;
+    position: relative;
+    bottom: 250px; 
+}
+
+.headerBox {
+    width: 21.875em;
+    height: 21.875em;
+    background-color: rgb(202, 202, 202);
+    border-radius: 20px;
+}
+
+@media (max-width:1067px) {
+    .headerBoxes{
+        visibility: hidden;
+    }
+}
+
+@media (max-width:1470px){
+    .headerBoxes{
+        padding: 0;
+    }
+}
+
+
