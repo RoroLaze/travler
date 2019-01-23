@@ -3,36 +3,49 @@
 
 body {
     margin: 0 auto;
-    font-family:'Lato';
+    font-family: 'Open Sans';
     color: #ffffff;
-    background-color: #343a40;
+    background-color: #F7F9FB;
     overflow-x: hidden;
 }
 
-.nav {
-    position: absolute;
+
+.connexion {
+    background-image: linear-gradient(to right, #44daed, #b5f451);
+    color: white;
+    border-radius: 20px;
 }
+
+.collapse .navbar-nav .connexion .nav-link{
+    color: white;
+}
+.collapse .navbar-nav .connexion .nav-link:hover{
+    color: white;
+}
+
 .travler {
-    font-family: "Anglena","sans-serif";
+    font-family: "Anglena", "sans-serif";
     font-size: 2rem;
 
 }
+
 .company {
     color: #b1dd04;
-    font-family: 'Lato';
-    font-size: 0.6em;
+    font-size: 0.8rem;
 }
 
 .navbar-brand {
-    margin: 0;
+    margin-left: 20px;
 }
+
 .navbar a {
+    font-weight: 600;
+    font-size: 0.8rem;
+
     color: #ffffff;
 }
-.navbar a:hover {
-    background-color: #343a40;
-}
-.navbar-collapse{
+
+.navbar-collapse {
     justify-content: flex-end;
     font-size: 0.8em;
 }
@@ -42,88 +55,109 @@ body {
 }
 
 .logo {
-    display:flex;
     width: 100px;
     position: absolute;
-    left : 50%;
+    left: 50%;
     transform: translate(-50%);
     top: 15%;
     margin: 0;
 }
+
 .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
     color: #b1dd04;
 }
+
 .dropdown-menu {
-    top: 40px;
-    background-color: #343a40;
-    border:none;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    border: none;
+
+    background-color: #f8f9fa;
 }
+
+.dropdown-menu a {
+    color: black;
+
+}
+
+
+
 .dropdown-item:hover {
-    color:#b1dd04;
+    color: #b1dd04;
 }
 
 header {
     height: 100vh;
     margin: auto;
-    color: #343a40;
+    color: #F7F9FB;
 }
 
 .imgHeader {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
     height: 60vh;
-    background-image: url(photos/imgHeader.jpg);
+    background-image: url(photos/imgHeader1.jpg);
     background-size: cover;
     background-position: center;
-    top: 2px; 
+    top: 2px;
 
     font-family: 'Anglena';
-    font-size: 3rem;
     text-align: center;
 }
 
 
-.where{
+.where {
     padding-top: 250px;
     font-size: 4rem;
+    color: #ffffff;
 }
 
 .headerBoxes {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;    
+    justify-content: space-around;
     padding: 0 200px;
     position: relative;
-    bottom:50px; 
+    bottom: 50px;
 }
 
 .headerBox {
     width: 300px;
     height: 280px;
-    background-color:#f9f7f8;
+    background-color: #00c1c0;
+    /* background-color:#f9f7f8;*/
     border-radius: 20px;
     padding: 30px;
-
-    box-shadow: 0 8px 6px -6px black;   
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 8px 6px -6px black;
 }
+
 .headerBoxText {
     text-align: center;
-    font-size: 1.1rem;
+
+}
+
+.headerBox img {
+    width: 80%;
 }
 
 .carteSection {
     height: 100vh;
 }
+
 @media (max-width:900px) {
-    .headerBoxes{
-       /* visibility: hidden; */
+    .headerBoxes {
+        /* visibility: hidden; */
     }
 }
 
-@media (max-width:1470px){
-    .headerBoxes{
+@media (max-width:1470px) {
+    .headerBoxes {
         padding: 0;
     }
 }
-
-
-
