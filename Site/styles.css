@@ -156,15 +156,11 @@ header {
     height: 100vh;
 }
 
-<<<<<<< HEAD
-.sliderSection {}
-=======
-.sliderSection {
+<<<<<<< HEAD .sliderSection {}
 
-}
->>>>>>> 753affb12086d716aa6e9d56a50410d1f552cf57
+=======.sliderSection {}
 
-footer {
+> > > > > > > 753affb12086d716aa6e9d56a50410d1f552cf57 footer {
     background-color: #00c1c0;
     padding: 0 10% 30px 10%;
     width: 100%;
@@ -223,6 +219,7 @@ footer {
     flex-basis: 25%;
     padding-top: 50px;
 }
+
 footer img {
     width: 40px;
     margin-right: 20px;
@@ -342,7 +339,7 @@ footer img {
     margin-left: auto;
     padding: 10px;
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .37);
-    border-bottom: solid 10px black;
+    border-bottom: solid 5px black;
     font-size: 0.8em;
 
 }
