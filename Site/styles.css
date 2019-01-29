@@ -15,15 +15,17 @@ body {
     color: white;
     border-radius: 20px;
 }
+
 .connexion:hover {
     color: black;
 
 }
 
-.collapse .navbar-nav .connexion .nav-link{
+.collapse .navbar-nav .connexion .nav-link {
     color: white;
 }
-.collapse .navbar-nav .connexion .nav-link:hover{
+
+.collapse .navbar-nav .connexion .nav-link:hover {
     color: white;
 }
 
@@ -154,9 +156,7 @@ header {
     height: 100vh;
 }
 
-.sliderSection {
-    
-}
+.sliderSection {}
 
 footer {
     background-color: #00c1c0;
@@ -168,42 +168,52 @@ footer {
     align-content: center;
     flex-wrap: wrap;
 }
+
 .footerBox {
     padding: 30px;
 }
-.footerBox a{
+
+.footerBox a {
     color: #ffffff;
     text-decoration: none;
 }
+
 .footerBoxTitle {
     font-weight: 600;
     font-size: 1.2rem;
     padding-bottom: 20px;
 }
+
 .connexionbot {
     background-image: linear-gradient(to right, #44daed, #b5f451);
     color: white;
     border-radius: 50px;
     padding: 20px;
 }
+
 .connexionbot:hover {
     color: black;
 }
+
 .travlerbot {
     font-family: "Anglena", "sans-serif";
     font-size: 4rem;
 
 }
+
 .companybot {
     color: #b1dd04;
     font-size: 1.5rem;
 }
+
 .footerBox1 {
     width: 50%;
 }
+
 .footerBox2 {
     padding-top: 50px;
 }
+
 .footerBox3 {
     padding-top: 50px;
 }
@@ -218,5 +228,205 @@ footer {
 @media (max-width:1470px) {
     .headerBoxes {
         padding: 0;
+    }
+}
+
+
+[type=radio] {
+    display: none;
+}
+
+#slider {
+    height: 22vh;
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    margin-bottom: 50px
+}
+
+
+
+
+#slider label {
+    margin: auto;
+    width: 40%;
+    height: 100%;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    border: solid 2px;
+}
+
+
+#s2:checked ~ #slide5,
+#s3:checked ~ #slide1,
+#s5:checked ~ #slide3 {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3), 0 2px 2px 0 rgba(0, 0, 0, .2);
+    transform: translate3d(-75%, 0, -200px);
+    opacity: 0.5;
+}
+
+#s1:checked ~ #slide5,
+#s3:checked ~ #slide2,
+#s5:checked ~ #slide4 {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3), 0 2px 2px 0 rgba(0, 0, 0, .2);
+    transform: translate3d(-75%, 0, -100px);
+    opacity: 0.5;
+}
+
+
+
+
+
+#s4:checked ~ #slide5,
+#s5:checked ~ #slide1 {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3), 0 2px 2px 0 rgba(0, 0, 0, .2);
+    transform: translate3d(75%, 0, -100px);
+    opacity: 0.5;
+}
+
+#s1:checked ~ #slide3,
+#s3:checked ~ #slide5,
+#s5:checked ~ #slide2 {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3), 0 2px 2px 0 rgba(0, 0, 0, .2);
+    transform: translate3d(75%, 0, -200px);
+    opacity: 0.5;
+}
+
+#slide1 {
+    background-image: url(photos/ville%202%20.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+#slide3 {
+    background-image: url(photos/ville.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+#slide5 {
+    background-image: url(photos/ville%203.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.tendances {
+
+    background-color: #00BCD4;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    text-align: center;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .37);
+    border-bottom: solid 10px black;
+    font-size: 0.8em;
+
+}
+
+.txt-tendances {
+    text-align: center;
+    font-size: 1.2em;
+
+}
+
+
+
+
+.case-tendance {
+    background-color: #00BCD4;
+    color: #ffffff;
+    padding: 5px;
+    background-size: cover;
+    border-top: solid 5px black;
+    text-align: center;
+    display: flex;
+
+}
+
+.txt-tendance {
+
+    border: solid 2px white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+label {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+
+}
+
+h2 {
+    margin: 0;
+}
+
+
+
+
+
+
+@media (min-width:569px) {
+
+    #slider label {
+        width: 100px;
+    }
+
+    .tendances {
+        font-size: 0.5em;
+        width: 20%;
+
+    }
+
+    .txt-tendance {
+        font-size: 0.5em
+    }
+
+
+
+}
+
+
+
+
+@media (min-width:768px) {
+
+    #slider label {
+        width: 20%;
+        height: 25vh;
+    }
+
+    .tendances {
+        width: 15%
+    }
+    .tendances {
+        font-size: 0.5em;
+        width: 100px;
+
+    }
+
+    .txt-tendance {
+        font-size: 0.5em
     }
 }
