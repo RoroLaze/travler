@@ -156,7 +156,13 @@ header {
     height: 100vh;
 }
 
+<<<<<<< HEAD
 .sliderSection {}
+=======
+.sliderSection {
+
+}
+>>>>>>> 753affb12086d716aa6e9d56a50410d1f552cf57
 
 footer {
     background-color: #00c1c0;
@@ -165,8 +171,7 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    align-content: center;
-    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .footerBox {
@@ -198,7 +203,6 @@ footer {
 .travlerbot {
     font-family: "Anglena", "sans-serif";
     font-size: 4rem;
-
 }
 
 .companybot {
@@ -207,15 +211,21 @@ footer {
 }
 
 .footerBox1 {
-    width: 50%;
+    flex-basis: 50%;
 }
 
 .footerBox2 {
+    flex-basis: 25%;
     padding-top: 50px;
 }
 
 .footerBox3 {
+    flex-basis: 25%;
     padding-top: 50px;
+}
+footer img {
+    width: 40px;
+    margin-right: 20px;
 }
 
 
