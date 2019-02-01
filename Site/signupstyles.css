@@ -1,0 +1,60 @@
+body {
+        margin: 0;
+        font-family: 'Open Sans';
+        color: #ffffff;
+        background-color: #F7F9FB;
+        height: 100vh;
+}
+.body {
+    height: 100%;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+height: 95%;
+ 
+
+}
+.photo {
+    background-image: url(photos/signup.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    flex-basis: 50%;
+}
+.signupBox {
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    background-color: #1b1b1b;
+}
+form {
+    width: 400px;
+}
+label {
+    text-align: center;
+}
+legend {
+    margin-bottom: 40px; 
+    font-size: 2.5rem;
+}
+.submit {
+    margin: 40px;
+    text-align: center;
+}
+input {
+    color: #F7F9FB;
+    width: 100%;
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 1px solid #b5f451;
+    background-color: rgba(247, 249, 251, 0);
+
+}
+input:focus {
+    outline: none;
+}

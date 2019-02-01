@@ -1,8 +1,10 @@
-
 .connexion {
     background-image: linear-gradient(to right, #44daed, #b5f451);
     color: white;
-    border-radius: 20px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 20px 10px 20px;
+
 }
 
 .connexion:hover {
@@ -52,7 +54,7 @@
 .logo {
     width: 100px;
     position: absolute;
-    left: 50%;
+    left: 50.1%;
     transform: translate(-50%);
     top: 15%;
     margin: 0;
