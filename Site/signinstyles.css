@@ -1,27 +1,30 @@
-
-
 body {
-    margin: 0;
-    font-family: 'Open Sans';
-    color: #ffffff;
-    background-color: #F7F9FB;
-    height: 100%;
-
-
+        margin: 0;
+        font-family: 'Open Sans';
+        color: #ffffff;
+        background-color: #F7F9FB;
+        height: 100%;
+        
 }
+
+
+
+.body{
+    height: 100%
+}
+
+
 
 .box {
     display: flex;
     flex-direction: row;
-	flex-wrap: wrap;
-	height:100%
+    flex-wrap: wrap;
+  
+    
 
-
-
-
+ 
 
 }
-
 .photo {
     background-image: url(photos/signup.jpg);
     background-position: center;
@@ -30,7 +33,6 @@ body {
     flex-basis: 50%;
 
 }
-
 .signupBox {
     display: flex;
     justify-content: center;
@@ -38,12 +40,14 @@ body {
     align-items: center;
     flex-basis: 50%;
     background-color: #1b1b1b;
-    height: 100%;
+    height: 100%
 }
-
 form {
-    width: 75%;
-    margin-top: 40px
+   width: 75%;
+   margin-top: 40px
+   
+   
+    
 }
 
 
@@ -52,20 +56,17 @@ form {
 label {
     text-align: center;
 }
-
 legend {
-
-
+   
+   
     font-size: 2.5rem;
 }
-
 .submit {
     margin: 40px;
     text-align: center;
     width: 50%;
     margin: auto
 }
-
 input {
     color: #F7F9FB;
     width: 100%;
@@ -75,45 +76,47 @@ input {
     background-color: rgba(247, 249, 251, 0);
 
 }
-
 input:focus {
     outline: none;
 }
 
 
-@media (max-width:768px) {
+@media (max-width:768px){
 
 
 
-    .photo {
-        display: none
-    }
+.photo{
+    display: none
+}
 
-    .signupBox {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-        flex-basis: 100%;
-        background-color: #1b1b1b;
-        height: 100%;
+.signupBox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-basis: 100%;
+    background-color: #1b1b1b;
+    height: 100%;
+   
+    
+}
 
-
-    }
-
-    legend {
-        text-align: center
-    }
-
-
-    form {
-        margin-top: 40px
-    }
+legend{
+    text-align: center
+}
 
 
-    img.logo {
-        display: none
-    }
+form{
+    margin-top: 40px;
+}
+
+
+img.logo{
+   display: none
+   
+}
+
+
 
 
 
