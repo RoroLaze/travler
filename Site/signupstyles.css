@@ -3,7 +3,8 @@ body {
         font-family: 'Open Sans';
         color: #ffffff;
         background-color: #F7F9FB;
-        height: 100vh;
+        
+        
 }
 .body {
     height: 100%;
@@ -12,7 +13,9 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-height: 95%;
+  
+    
+
  
 
 }
@@ -22,29 +25,41 @@ height: 95%;
     background-size: cover;
     background-color: black;
     flex-basis: 50%;
+
 }
 .signupBox {
-    
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
     flex-basis: 50%;
     background-color: #1b1b1b;
+    height: 100%
 }
 form {
-    width: 400px;
+   width: 75%;
+   margin-top: 40px
+   
+   
+    
 }
+
+
+
+
 label {
     text-align: center;
 }
 legend {
-    margin-bottom: 40px; 
+   
+   
     font-size: 2.5rem;
 }
 .submit {
     margin: 40px;
     text-align: center;
+    width: 50%;
+    margin: auto
 }
 input {
     color: #F7F9FB;
@@ -57,4 +72,40 @@ input {
 }
 input:focus {
     outline: none;
+}
+
+
+@media (max-width:768px){
+
+
+
+.photo{
+    display: none
+}
+
+.signupBox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-basis: 100%;
+    background-color: #1b1b1b;
+    height: 100%;
+    padding-top: 50px
+    
+}
+
+legend{
+    text-align: center
+}
+
+
+form{
+    margin-top: 40px
+}
+
+
+
+
+
 }

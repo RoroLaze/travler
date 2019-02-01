@@ -6,7 +6,8 @@ height:100vh;
 
 .child_equipe{
 width:45%;
-height:45%;
-justify-content:space-around;
-
+height:100vh;
+justify-content:space-between;
+align-items: center;
+display: flex;
 }
