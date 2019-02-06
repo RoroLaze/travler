@@ -26,6 +26,10 @@
 </head>
 
 <body>
+<?php   
+    
+?>
+
 <div class="body">
       
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -41,21 +45,21 @@
  <div class="box"> 
     <div class="photo"></div>
     <div class="signupBox">
-        <form action="signup.php">
+        <form action="signup.php" method="POST">
                 <fieldset>
                         <legend>SIGN UP</legend>
                         <label>  Nom </label>  
-                        <br><input type="text" name="nom"> <br>
+                        <br><input type="text" name="nom" value="nom" required> <br>
                         <label>  Prénom </label>  
-                        <br><input type="text" name="prenom">
+                        <br><input type="text" name="prenom" value="prenom" required>
                         <label>  Pseudo </label>  
-                        <br><input type="text" name="pseudo">  
+                        <br><input type="text" name="pseudo" value="pseudo" required>  
                         <label>  E-mail </label>  
-                        <br><input type="text" name="email">
-                        <label>  Mot-de-passe </label>  
-                        <br><input type="text" name="mdp">
-                        <label>  Verification de Mot-de-passe </label>  
-                        <br><input type="text" name="mdp2">        
+                        <br><input type="text" name="email" value="email" required>
+                        <label>  Mot de passe </label>  
+                        <br><input type="password" name="mdp" value="mdp" required>
+                        <label>  Verification de Mot de passe </label>  
+                        <br><input type="password" name="mdp2" value="mdp2" required>        
 
 
 
@@ -71,4 +75,8 @@
 
     </div>
 </div>
+
+
+
+
 </body>
