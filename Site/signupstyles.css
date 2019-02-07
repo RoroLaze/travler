@@ -6,14 +6,13 @@ body {
     background-color: #F7F9FB;
 
 
-
 }
 
 .box {
     display: flex;
     flex-direction: row;
 	flex-wrap: wrap;
-	height:100%
+	height:100vh;
 
 
 
