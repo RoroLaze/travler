@@ -19,7 +19,7 @@
 if(empty($nom) OR empty($prenom) OR empty($pseudo) OR empty($email) OR empty($mdp) OR empty($mdp2)){    
    echo '<font color="red">Attention, un des champs est vide</font>'; 
 } else {   
-
+ 
     if ($mdp!=$mdp2) {
       echo '<font color="red">Mot de passe incorrect</font>'; 
     } else {
@@ -29,7 +29,7 @@ if(empty($nom) OR empty($prenom) OR empty($pseudo) OR empty($email) OR empty($md
 
   $req = $db ->query("INSERT INTO utilisateur (nom, prenom, pseudo, email, mdp) VALUES ('$nom', '$prenom', '$pseudo', '$email', '$mdp')");
 
-  echo 'yes';
+  echo 'Vous avez été inscrits';
 
 
   header('Location: profil.php');
