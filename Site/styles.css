@@ -53,7 +53,9 @@ header {
     width: 80%;
 }
 
-
+.choisirBox {
+    background-color: #131313;
+}
 .choisir {
     height: 100px;
     color: rgb(17, 17, 17);
