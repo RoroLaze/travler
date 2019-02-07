@@ -1,10 +1,6 @@
+
 <?php 
 
-$link = mysqli_connect('sqletud.u-pem.fr','hlytras','marronette');
-        mysqli_set_charset($link, "utf8");
-        $sql = 'SELECT * FROM Utilisateur';
-        $req = mysqli_query($link, $sql)
-            or die('Erreur SQL !<br>'.$sql.'<br>'.mysqli_error($link)); 
 
             if(isset($_POST['nom'])){$nom=$_POST['nom'];
             } else {$nom = "";}
@@ -20,27 +16,27 @@ $link = mysqli_connect('sqletud.u-pem.fr','hlytras','marronette');
             } else {$mdp2 = "";}
             
               
-             if(empty($nom) OR empty($prenom) OR empty($email) OR empty($pseudo) OR empty($mdp) OR empty($mdp2)){
-            echo '<font color="red">Attention, un des champs est vide</font>';
-            } else {
-
-            $sql = "INSERT INTO Utilisateur(id,nom,prenom,pseudo,email,mpd,mdp2) VALUES('','$nom',
-            '$prenom','$pseudo','$email','$mdp','$mdp2',)";
-               
+if(empty($nom) OR empty($prenom) OR empty($pseudo) OR empty($email) OR empty($mdp) OR empty($mdp2)){    
+   echo '<font color="red">Attention, un des champs est vide</font>'; 
+} else {   
  
-            echo 'Merci';
-            
-            mysqli_close($link);
-            }
-?>
+    if ($mdp!=$mdp2) {
+      echo '<font color="red">Mot de passe incorrect</font>'; 
+    } else {
+
+    
+  $db = new PDO('mysql:host=localhost;dbname=travler;charset=utf8','root','');
+
+  $req = $db ->query("INSERT INTO utilisateur (nom, prenom, pseudo, email, mdp) VALUES ('$nom', '$prenom', '$pseudo', '$email', '$mdp')");
+
+  echo 'Vous avez été inscrits';
 
 
-<html>
-<body>
+  header('Location: profil.php');
 
+  // $query = "INSERT INTO utilisateur (id, nom, prenom, pseudo, email, mdp) VALUES ('', '$nom', '$prenom', '$pseudo', '$email', '$mdp')";  
 
-Welcome <?php echo $_POST["name"]; ?><br>
-Your email address is: <?php echo $_POST["email"]; ?>
+}
+}
 
-</body>
-</html>
+?> 
