@@ -33,6 +33,7 @@
 
 .navbar-brand {
     margin-left: 20px;
+    align-self: flex-start;
 }
 
 .navbar a {
@@ -81,4 +82,9 @@
 
 .dropdown-item:hover {
     color: #b1dd04;
+}
+
+.navbar{
+    width: 100vw;
+    position: fixed;
 }
