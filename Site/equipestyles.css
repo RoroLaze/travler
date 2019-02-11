@@ -1,6 +1,7 @@
 body{
     width: 100%;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .container_equipe {
@@ -47,4 +48,47 @@ p{
     width: 200px;
     height: 200px;
     margin: 3%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.noemie{
+    background-image: url(photos/equipe/NoemieNoir.jpg);
+}
+
+.romain{
+    background-image: url(photos/equipe/RomainNoir.jpg);
+}
+
+.emilio{
+    background-image: url(photos/equipe/EmilioNoir.jpg);
+}
+
+.valentin{
+    background-image: url(photos/equipe/ValentinNoir.jpg);
+}
+
+.helene{
+    background-image: url(photos/equipe/HeleneNoir.jpg);
+}
+
+.noemie:hover{
+    background-image: url(photos/equipe/NoemieCouleur.jpg);
+}
+
+.romain:hover{
+    background-image: url(photos/equipe/RomainCouleur.jpg);
+}
+
+.emilio:hover{
+    background-image: url(photos/equipe/EmilioCouleur.jpg);
+}
+
+.valentin:hover{
+    background-image: url(photos/equipe/ValentinCouleur.jpg);
+}
+
+.helene:hover{
+    background-image: url(photos/equipe/HeleneCouleur.jpg);
 }
