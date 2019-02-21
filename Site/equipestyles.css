@@ -1,6 +1,5 @@
 body{
     width: 100%;
-    height: 100vh;
     overflow-x: hidden;
 }
 
@@ -12,13 +11,11 @@ body{
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    height: 88vh;
     -ms-flex-wrap: wrap;
 }
 
 .child_equipe {
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
+    text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -29,6 +26,17 @@ body{
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 
+}
+.top {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+}
+.bottom div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 p{
@@ -43,7 +51,6 @@ p{
 }
 
 .rond{
-    border: solid black 1px;
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -53,42 +60,42 @@ p{
     background-size: cover;
 }
 
-.noemie{
-    background-image: url(photos/equipe/NoemieNoir.jpg);
+.noemie {
+    background-image: url(photos/equipe/NoemieNoir.png);
 }
 
 .romain{
-    background-image: url(photos/equipe/RomainNoir.jpg);
+    background-image: url(photos/equipe/RomainNoir.png);
 }
 
 .emilio{
-    background-image: url(photos/equipe/EmilioNoir.jpg);
+    background-image: url(photos/equipe/EmilioNoir.png);
 }
 
 .valentin{
-    background-image: url(photos/equipe/ValentinNoir.jpg);
+    background-image: url(photos/equipe/ValentinNoir.png);
 }
 
 .helene{
-    background-image: url(photos/equipe/HeleneNoir.jpg);
+    background-image: url(photos/equipe/HeleneNoir.png);
 }
 
 .noemie:hover{
-    background-image: url(photos/equipe/NoemieCouleur.jpg);
+    background-image: url(photos/equipe/NoemieCouleur.png);
 }
 
 .romain:hover{
-    background-image: url(photos/equipe/RomainCouleur.jpg);
+    background-image: url(photos/equipe/RomainCouleur.png);
 }
 
 .emilio:hover{
-    background-image: url(photos/equipe/EmilioCouleur.jpg);
+    background-image: url(photos/equipe/EmilioCouleur.png);
 }
 
 .valentin:hover{
-    background-image: url(photos/equipe/ValentinCouleur.jpg);
+    background-image: url(photos/equipe/ValentinCouleur.png);
 }
 
 .helene:hover{
-    background-image: url(photos/equipe/HeleneCouleur.jpg);
+    background-image: url(photos/equipe/HeleneCouleur.png);
 }
