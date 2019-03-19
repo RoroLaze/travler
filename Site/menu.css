@@ -213,3 +213,15 @@ footer img {
     background-position: 0 0;
 
 }
+
+
+
+@media (max-width:1000px) {
+
+    .logo {
+        visibility: hidden;
+    }
+
+
+}
+
