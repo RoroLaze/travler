@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@font-face {
+    font-family: edo;
+    src: url(fonts/edo.ttf);
+  }
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(32, 32, 32);
+    font-family: 'Lato';
+    letter-spacing: 2px;
+}
+
+.logotravler {
+    width: 50px;
+    position: absolute;
+    top: 2%;
+    right: 2%; 
+
+}
+
+header{
+    background-image: url();
+    color: white;
+    background-color: rgb(247, 247, 247);
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+}
+
+.centerh{
+    justify-content: center;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center{
+    text-align: center;
+}
+
+.container40{
+    height: 40%;
+}
+
+.container60{
+    height: 60%;
+}
+
+h1{
+font-size: 3em;
+margin-top: 0;
+margin-bottom: 2em;
+}
+
+a{
+border: 2px white solid;
+padding: 7px;
+border-radius: 7px;
+text-decoration: none;
+color: white;
+}
+
+a:hover {
+  background-color: whit;
+  color:black;
+}
+
+article {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.art {
+    flex-basis: 55%;
+    width: 100%;
+
+}
+.art img {
+    width: 100%;
+}
+.text {
+    margin: 150px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+
+}
+
+.chiffre {
+    font-family: edo;
+    width: 100%;
+    font-size: 4rem;
+    margin: 0;
+    position: relative;
+    top: 50px;
+    right: 60px;
+    opacity: 0.5;
+}
+h2 {
+    width: 100%;
+}
