@@ -22,10 +22,19 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 
-    <script src="script.js"></script>
+
+    <script src="https://www.amcharts.com/lib/4/core.js"></script>
+<script src="https://www.amcharts.com/lib/4/maps.js"></script>
+<script src="https://www.amcharts.com/lib/4/geodata/worldHigh.js"></script>
+<script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
+
+
+
+
 </head>
 
 <body>
+
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a href="#top"><img src="photos/logo1petit.png" alt="" class="logo"></a>
@@ -85,9 +94,8 @@
         <div class="choisirBox">
             <p class="choisir"> Choisissez la visite qui vous correspond: </p>
         </div>
-        <div class="carte">
-            <div class="carte"> </div>
-        </div>
+        <div id="chartdiv"></div>
+        <div class="">   </div>
     </article>
 
 
@@ -127,11 +135,17 @@
     </footer>
 </body>
 
-
+<script type="text/javascript" src="code.js"></script>
+<script src="http://code.jquery.com/jquery-3.1.1.js"></script>
 <script>
-    $('.carousel').carousel({
-        interval: 2000
-    })
-</script>
 
+        var c = 0;
+        $("circle").click(function() {
+            c++;
+            if (c == 1){
+                $("body").append("<a href='#'><div class='divStreetArt'><p>Visitez Paris à travers le Street Art</p></div></a>");
+                console.log("ok : " + c);
+            }
+        });
+    </script>
 </html>
