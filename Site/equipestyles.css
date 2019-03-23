@@ -1,6 +1,8 @@
 body {
     width: 100%;
     overflow-x: hidden;
+    margin: 0 auto;
+
 }
 
 .container_equipe {
@@ -15,6 +17,7 @@ body {
 }
 
 .child_equipe {
+    padding: 35px;
     text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -81,13 +84,13 @@ p:first-child {
 
 .rond:hover {
     border: solid 5px #01d0ca;
+    cursor: pointer;
 }
 
 .rond:active {
     background-image: hidden;
     background-color: #01d0ca;
     opacity: 1;
-    cursor: pointer;
 }
 
 .noemie {
