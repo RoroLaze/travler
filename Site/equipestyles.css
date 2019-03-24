@@ -2,7 +2,8 @@ body {
     width: 100%;
     overflow-x: hidden;
     margin: 0 auto;
-
+    background-color: rgb(26, 26, 26);
+    color: white;
 }
 
 .container_equipe {
@@ -14,7 +15,7 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     -ms-flex-wrap: wrap;
-}
+align-items: center;}
 
 .child_equipe {
     padding: 35px;
@@ -38,7 +39,8 @@ body {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 100%;
+    justify-items: center;
+    width: 70%;
     height: 40vh;
 }
 
@@ -53,6 +55,8 @@ body {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    margin: 10px;
+
 }
 
 p {
@@ -71,6 +75,7 @@ p:first-child {
 }
 
 .rond {
+    background-color: white;
     border-radius: 50%;
     width: 250px;
     height: 250px;
