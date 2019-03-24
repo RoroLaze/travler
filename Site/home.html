@@ -8,7 +8,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 
-    
+
 
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="menu.css">
@@ -93,7 +93,7 @@
             <p class="choisir"> Choisissez la visite qui vous correspond: </p>
         </div>
         <div id="chartdiv"></div>
-        <div class="">   </div>
+        <div class=""> </div>
     </article>
 
 
@@ -105,8 +105,7 @@
         <div class="footerBox footerBox1">
             <a href="#"><span class="travlerbot">travler</span><span class="companybot">.COMPANY</span></a>
             <br> <br>
-            <p>Nous sommes Travler une start up créée par des étudiants en DUT MMI (Métiers du Multimédia et de l’Internet).<br>
-                Nous vous proposons des visites originales et interactives. <br>
+            <p>Nous sommes Travler une start up créée par des étudiants en DUT MMI (Métiers du Multimédia et de l’Internet).<br> Nous vous proposons des visites originales et interactives. <br>
 
 
             </p>
@@ -136,14 +135,15 @@
 <script type="text/javascript" src="code.js"></script>
 <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
 <script>
+    var c = 0;
+    $("circle").click(function() {
+        c++;
+        if (c == 1) {
+            $("body").append("<a href='#'><div class='divStreetArt'><p>Visitez Paris à travers le Street Art</p></div></a>");
+            console.log("ok : " + c);
+        }
+    });
 
-        var c = 0;
-        $("circle").click(function() {
-            c++;
-            if (c == 1){
-                $("body").append("<a href='#'><div class='divStreetArt'><p>Visitez Paris à travers le Street Art</p></div></a>");
-                console.log("ok : " + c);
-            }
-        });
-    </script>
+</script>
+
 </html>

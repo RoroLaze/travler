@@ -1,6 +1,7 @@
 nav {
     z-index: 1;
 }
+
 .collapse .navbar-nav .connexion .nav-link {
     color: white;
 }
@@ -129,27 +130,23 @@ footer {
 .connexionbot {
     background-image: -webkit-gradient(linear, left top, right top, from(#44daed), color-stop(#b5f451), to(#44daed));
     background-image: linear-gradient(to right, #44daed, #b5f451, #44daed);
-
     background-repeat: repeat-x;
     background-repeat: repeat-y;
     background-size: 400px 200px;
     background-position: -200px 0;
-
-
     color: white !important;
     border-radius: 40px;
     border: none;
-
     padding: 20px;
 
--webkit-transition: background 1s ease;
-transition: background 1s ease;
+    -webkit-transition: background 1s ease;
+    transition: background 1s ease;
 
 
 }
 
 .connexionbot:hover {
-background-position: 0 0;
+    background-position: 0 0;
 
 }
 
@@ -224,8 +221,8 @@ footer img {
     }
 
     .navbar-brand {
+        -ms-flex-item-align: center;
         align-self: center;
     }
 
 }
-
