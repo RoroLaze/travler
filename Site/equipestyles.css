@@ -3,6 +3,7 @@ body {
     overflow-x: hidden;
     margin: 0 auto;
     background-color: rgb(26, 26, 26);
+    height: 100vh;
 }
 
 .container_equipe {
@@ -17,6 +18,9 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    height: 100vh;
 }
 
 .child_equipe {
