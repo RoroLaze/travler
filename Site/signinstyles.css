@@ -1,72 +1,77 @@
 body {
-        margin: 0;
-        font-family: 'Open Sans';
-        color: #ffffff;
-        background-color: #F7F9FB;
-        height: 100%;
-        
+    margin: 0;
+    font-family: 'Open Sans';
+    color: #ffffff;
+    background-color: #F7F9FB;
+    height: 100vh;
+    overflow-y: hidden;
 }
-
-
-
-.body{
-    height: 100%
-}
-
-
 
 .box {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-  
-    
-
- 
-
 }
+
 .photo {
     background-image: url(photos/signup.jpg);
     background-position: center;
     background-size: cover;
     background-color: black;
+    -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
-
 }
+
 .signupBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -ms-flex-line-pack: center;
     align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
     background-color: #1b1b1b;
     height: 100%
 }
+
 form {
-   width: 75%;
-   margin-top: 40px
-   
-   
-    
+    height: 100%;
+    width: 75%;
 }
-
-
-
+fieldset{
+    color: white;
+    margin-top: 55%;
+}
 
 label {
     text-align: center;
+    padding-bottom:20px; 
 }
+
 legend {
-   
-   
     font-size: 2.5rem;
 }
+
 .submit {
-    margin: 40px;
+    margin-top: 40px;
     text-align: center;
     width: 50%;
-    margin: auto
+    margin: auto;
 }
+
 input {
     color: #F7F9FB;
     width: 100%;
@@ -74,51 +79,44 @@ input {
     border: none;
     border-bottom: 1px solid #b5f451;
     background-color: rgba(247, 249, 251, 0);
-
 }
+
 input:focus {
     outline: none;
 }
 
-
-@media (max-width:768px){
-
-
-
-.photo{
-    display: none
-}
-
-.signupBox {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-basis: 100%;
-    background-color: #1b1b1b;
-    height: 100%;
-   
+@media (max-width:768px) {
+    .photo {
+        display: none;
+    }
     
-}
+    .signupBox {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        background-color: #1b1b1b;
+        height: 100%;
+    }
 
-legend{
-    text-align: center
-}
+    legend {
+        text-align: center;
+    }
 
+    form {
+        margin-top: 40px;
+    }
 
-form{
-    margin-top: 40px;
-}
-
-
-img.logo{
-   display: none
-   
-}
-
-
-
-
-
-
+    .logo {
+        display: none;
+    }
 }
