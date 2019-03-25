@@ -53,12 +53,12 @@ form {
 }
 fieldset{
     color: white;
-    margin-top: 55%;
+    height: 100%;
+    margin-top: 40%!important;
 }
 
 label {
     text-align: center;
-    padding-bottom:20px; 
 }
 
 legend {
@@ -66,7 +66,7 @@ legend {
 }
 
 .submit {
-    margin-top: 40px;
+    margin-top: 40px!important;
     text-align: center;
     width: 50%;
     margin: auto;
@@ -75,7 +75,7 @@ legend {
 input {
     color: #F7F9FB;
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 40px; 
     border: none;
     border-bottom: 1px solid #b5f451;
     background-color: rgba(247, 249, 251, 0);
