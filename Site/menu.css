@@ -93,23 +93,18 @@ nav {
 
 
 footer {
+    color: white;
+
     background-color: #00c1c0;
     padding: 0 10% 30px 10%;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
     align-items: flex-start;
-    -ms-flex-pack: distribute;
     justify-content: space-around;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+
 }
 
 .footerBox {
@@ -120,7 +115,10 @@ footer {
     color: #ffffff;
     text-decoration: none;
 }
-
+.footerBox a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
 .footerBoxTitle {
     font-weight: 600;
     font-size: 1.2rem;
@@ -141,13 +139,10 @@ footer {
 
     -webkit-transition: background 1s ease;
     transition: background 1s ease;
-
-
 }
 
 .connexionbot:hover {
     background-position: 0 0;
-
 }
 
 .travlerbot {
