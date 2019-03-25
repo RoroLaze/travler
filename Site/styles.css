@@ -4,11 +4,12 @@ body {
     color: #ffffff;
     background-color: #F7F9FB;
     overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 header {
-    height: 70vh;
-    width: 100vw;
+    height: auto;
+    width: 100%;
     margin: auto;
     color: #F7F9FB;
     background-image: url(photos/imgHeader2.jpg);
@@ -72,28 +73,21 @@ header {
 .choisirBox {
     background-color: #131313;
 }
+
 .choisir {
     height: 100px;
-    color: rgb(17, 17, 17);
+    color: white;
 }
 
 .carteSection {
-    height: 100vh;
-    
-
+    height: auto;
 }
+
 .carte {
     background-color: white;
-
 }
 
-
-
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  }
-  
-  #chartdiv {
+#chartdiv {
     width: 100%;
     height: 500px;
-  }
+}
