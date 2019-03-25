@@ -96,19 +96,19 @@ footer {
     color: white;
 
     background-color: #00c1c0;
-    padding: 0 10% 30px 10%;
+    padding: 0 5% 30px 5%;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: inline-flex;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: space-around;
-    flex-wrap: wrap;
 
+    flex-wrap: wrap;
 }
 
 .footerBox {
     padding: 30px;
+
 }
 
 .footerBox a {
@@ -119,6 +119,7 @@ footer {
     color: #ffffff;
     text-decoration: none;
 }
+
 .footerBoxTitle {
     font-weight: 600;
     font-size: 1.2rem;
