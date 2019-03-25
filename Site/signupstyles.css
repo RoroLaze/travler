@@ -1,21 +1,23 @@
-body {
 
+body {
+    
     font-family: 'Open Sans';
     color: #ffffff;
     background-color: #F7F9FB;
+
+
 }
 
 .box {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
     flex-direction: row;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    height: 100vh;
+	flex-wrap: wrap;
+	height:100vh;
+
+
+
+
+
 }
 
 .photo {
@@ -23,24 +25,15 @@ body {
     background-position: center;
     background-size: cover;
     background-color: black;
-    -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
 
 }
 
 .signupBox {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -ms-flex-line-pack: center;
     align-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
     background-color: #1b1b1b;
     height: 100%;
@@ -48,13 +41,19 @@ body {
 
 form {
     width: 75%;
+    margin-top: 40px
 }
+
+
+
 
 label {
     text-align: center;
 }
 
 legend {
+
+
     font-size: 2.5rem;
 }
 
@@ -89,18 +88,10 @@ input:focus {
     }
 
     .signupBox {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
         justify-content: center;
-        -ms-flex-line-pack: center;
         align-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
         align-items: center;
-        -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         background-color: #1b1b1b;
         height: 100%;
