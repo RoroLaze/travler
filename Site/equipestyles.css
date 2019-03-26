@@ -107,43 +107,43 @@ p:first-child {
 }
 
 .noemie {
-    background-image: url(photos/equipe/NoemieNoir.png);
+    background-image: url(photos/equipe/Images_reduites/NoemieNoir.png);
 }
 
 .romain {
-    background-image: url(photos/equipe/RomainNoir.png);
+    background-image: url(photos/equipe/Images_reduites/RomainNoir.png);
 }
 
 .emilio {
-    background-image: url(photos/equipe/EmilioNoir.png);
+    background-image: url(photos/equipe/Images_reduites/EmilioNoir.png);
 }
 
 .valentin {
-    background-image: url(photos/equipe/ValentinNoir.png);
+    background-image: url(photos/equipe/Images_reduites/ValentinNoir.png);
 }
 
 .helene {
-    background-image: url(photos/equipe/HeleneNoir.png);
+    background-image: url(photos/equipe/Images_reduites/HeleneNoir.png);
 }
 
 .noemie:hover {
-    background-image: url(photos/equipe/NoemieCouleur.png);
+    background-image: url(photos/equipe/Images_reduites/NoemieCouleur.png);
 }
 
 .romain:hover {
-    background-image: url(photos/equipe/RomainCouleur.png);
+    background-image: url(photos/equipe/Images_reduites/RomainCouleur.png);
 }
 
 .emilio:hover {
-    background-image: url(photos/equipe/EmilioCouleur.png);
+    background-image: url(photos/equipe/Images_reduites/EmilioCouleur.png);
 }
 
 .valentin:hover {
-    background-image: url(photos/equipe/ValentinCouleur.png);
+    background-image: url(photos/equipe/Images_reduites/ValentinCouleur.png);
 }
 
 .helene:hover {
-    background-image: url(photos/equipe/HeleneCouleur.png);
+    background-image: url(photos/equipe/Images_reduites/HeleneCouleur.png);
 }
 
 .noemie {}
