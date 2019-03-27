@@ -1,0 +1,100 @@
+body {
+	width: 100%;
+	overflow-x: hidden;
+	margin: 0 auto;
+	background-color: rgb(26, 26, 26);
+	height: 100vh;
+}
+
+.container_main {
+
+	height: 100%;
+}
+
+.container_profil {
+	width: 50%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-wrap: wrap;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: rgb(26, 26, 26);
+	color: white;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center;
+	padding: 20px;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+
+
+}
+
+.border_bottom_green {
+	border-bottom: 4px solid #b5f451;
+	background-color: rgba(247, 249, 251, 0);
+}
+
+.titre_informations {
+	margin: 20px 0px 0px 0px;
+	background-color: #ffff;
+	padding: 20px
+}
+
+h3 {
+	float: left;
+	width: 50%;
+	margin-top: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-top: 5px solid #b5f451;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: rgb(26, 26, 26)
+}
+
+.changer {
+	width: 50%;
+	background-color:#121212
+}
+
+.container_informations {
+	background-color: rgb(26, 26, 26);
+	width: 100%;
+	color: black;
+	margin-top: 50px;
+	
+}
+
+.photo {
+
+	width: 50%;
+
+}
+
+.rond {
+	background-color: white;
+	border-radius: 100%;
+	border: solid 5px #b1dd04;
+	padding: 10px;
+	width: 250px;
+	display: flex;
+}
+
+.Welcome {
+	padding-bottom: 50px
+}
+
+.image {
+	background-image: url(photos/emmad-216134-unsplash.jpg);
+	;
+	background-size: cover;
+	background-repeat: no-repeat
