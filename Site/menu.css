@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
     z-index: 1;
 }
@@ -13,7 +17,6 @@ nav {
 .travler {
     font-family: "Anglena", "sans-serif";
     font-size: 2rem;
-
 }
 
 .company {
@@ -31,7 +34,6 @@ nav {
 .navbar a {
     font-weight: 600;
     font-size: 0.8rem;
-
     color: #ffffff;
 }
 
@@ -70,17 +72,13 @@ nav {
     font-family: 'Open Sans';
     font-weight: 500;
     border: none;
-
     background-color: #f8f9fa;
 }
 
 .dropdown-menu a {
     color: black;
     padding: 5px;
-
 }
-
-
 
 .dropdown-item:hover {
     color: #b1dd04;
@@ -91,32 +89,39 @@ nav {
     position: fixed;
 }
 
-
 footer {
-    margin-top: 40px;
-
+    margin-top: 20px;
     color: white;
-
     background-color: #00c1c0;
-    padding: 0 5% 30px 5%;
+    padding: 0 3% 3% 3%;
     width: 100%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+
+    -ms-flex-wrap: wrap;
 
     flex-wrap: wrap;
 }
 
 .footerBox {
-    padding: 30px;
-
+   margin-top: 10px;
 }
 
 .footerBox a {
     color: #ffffff;
     text-decoration: none;
 }
+
 .footerBox a:hover {
     color: #ffffff;
     text-decoration: none;
@@ -166,13 +171,11 @@ footer {
 .footerBox2 {
     -ms-flex-preferred-size: 25%;
     flex-basis: 25%;
-    padding-top: 50px;
 }
 
 .footerBox3 {
     -ms-flex-preferred-size: 25%;
     flex-basis: 25%;
-    padding-top: 50px;
 }
 
 footer img {
@@ -180,37 +183,23 @@ footer img {
     margin-right: 20px;
 }
 
-
-
 .connexion {
     background-image: -webkit-gradient(linear, left top, right top, from(#44daed), color-stop(#b5f451), to(#44daed));
     background-image: linear-gradient(to right, #44daed, #b5f451, #44daed);
-
-    background-repeat: repeat-x;
-    background-repeat: repeat-y;
+    background-repeat:repeat;
     background-size: 200px 170px;
     background-position: -100px 0;
-
-
     color: white !important;
     border-radius: 30px;
     border: none;
     padding: 15px 10px;
-
-
-
     -webkit-transition: background 1s ease;
     transition: background 1s ease;
-
-
 }
 
 .connexion:hover {
     background-position: 0 0;
-
 }
-
-
 
 @media (max-width:1000px) {
 
