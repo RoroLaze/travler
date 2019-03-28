@@ -75,8 +75,11 @@ header {
 }
 
 .choisir {
-    height: 100px;
     color: white;
+    margin-bottom: auto !important;
+    font-family: 'Anglena';
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .carteSection {

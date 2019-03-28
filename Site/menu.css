@@ -90,10 +90,9 @@ nav {
 }
 
 footer {
-    margin-top: 20px;
     color: white;
     background-color: #00c1c0;
-    padding: 0 3% 3% 3%;
+    padding: 0 3% 0% 3%;
     width: 100%;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
