@@ -95,9 +95,9 @@ header {
 }
 
 #chartdiv {
-    margin-top: 0;
+	margin-top: 0;
 	width: 100%;
-	height: 80vh;
+	height: 50vh;
 	margin-top: 0;
 }
 
@@ -169,7 +169,6 @@ header {
 	text-decoration: none;
 	margin-top: 0;
 	background-color: #F7F9FB;
-	margin-bottom: 60px;
 }
 
 .txt_StreetArt {
@@ -178,4 +177,8 @@ header {
 	width: 25%;
 	margin: auto;
 	border-radius: 100px;
+}
+
+.fieldset_inscription {
+	padding-top: 20px
 }
