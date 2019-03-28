@@ -8,6 +8,13 @@ body {
     overflow-y: hidden;
 }
 
+.nav-link {
+    background-color: #b5f451;
+    border-radius: 5%;
+}
+
+
+
 .box {
     height: 100%;
     display: -webkit-box;
@@ -69,6 +76,7 @@ legend {
     text-align: center;
     width: 50%;
     margin: auto;
+    border-radius: 100%
 }
 
 input {

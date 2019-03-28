@@ -92,7 +92,7 @@ nav {
 footer {
     color: white;
     background-color: #00c1c0;
-    padding: 0 3% 0% 3%;
+    padding: 3% 3% 3% 3%;
     width: 100%;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -162,7 +162,7 @@ footer {
 
 .footerBox1 {
     -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
+    flex-basis: 40%;
 }
 
 .footerBox2 {
@@ -212,5 +212,12 @@ footer img {
         -ms-flex-item-align: center;
         align-self: center;
     }
+
+
+    .nav-item {
+        padding: 3px
+    }
+
+
 
 }
