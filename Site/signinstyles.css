@@ -77,7 +77,10 @@ legend {
     text-align: center;
     width: 50%;
     margin: auto;
+}
 
+.cursorm{
+    cursor: pointer;
 }
 
 input {
