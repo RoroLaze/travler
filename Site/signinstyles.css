@@ -26,6 +26,7 @@ body {
     flex-direction: row;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+
 }
 
 .photo {
@@ -76,7 +77,7 @@ legend {
     text-align: center;
     width: 50%;
     margin: auto;
-    border-radius: 100%
+
 }
 
 input {
