@@ -71,16 +71,17 @@ header {
 }
 
 .choisirBox {
-	background-color: #131313;
-	padding: 20px
+	background-color: #F7F9FB;
+	padding: 50px;
+	border-top: #b1dd04 solid 5px;
 }
 
 .choisir {
-	color: white;
-	margin-bottom: auto !important;
-	font-family: 'Anglena';
+	color: #b1dd04;
+	margin-bottom: auto;
 	text-align: center;
 	font-size: 1.5rem;
+	background-color: #F7F9FB;
 }
 
 .carteSection {
@@ -96,11 +97,34 @@ header {
 	height: 500px;
 	margin-top: 0;
 }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	height: 50px;
+	width: 50px;
+	outline: #b1dd04;
+	background-size: 100%, 100%;
+	border-radius: 50%;
+	background-image: none;
+  }
+  
+  .carousel-control-next-icon:after{
+	content: url(photos/next.svg);
+	font-size: 2rem;
+	font-weight: 800;
+	color: #b1dd04;
+  }
+.carousel-control-prev-icon:after {
+	content: url(photos/previous.svg);
+	font-size: 2rem;
+	font-weight: 800;
+	color: #b1dd04;
+}
 
 .carousel {
-	background-color: rgba(0, 0, 0, 0.97);
+	background-color: #F7F9FB;
 	padding-bottom: 20px;
-	padding-top: 20px
+	padding-top: 20px;
+	margin-bottom: 100px;
 }
 
 .d-block {
@@ -113,12 +137,6 @@ header {
 	background-size: cover;
 	background-position: center;
 }
-
-
-/*
-
-w-25
-*/
 
 .divStreetArt {
 	color: #ffffff;

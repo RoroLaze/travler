@@ -82,7 +82,7 @@ nav {
 
 .dropdown-menu a {
 	color: black;
-	padding: 5px;
+	padding-left: 10px;
 }
 
 .dropdown-item:hover {
