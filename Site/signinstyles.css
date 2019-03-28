@@ -77,7 +77,8 @@ legend {
     text-align: center;
     width: 50%;
     margin: auto;
-}
+    padding: 20px;
+    }
 
 .cursorm{
     cursor: pointer;
@@ -90,6 +91,7 @@ input {
     border: none;
     border-bottom: 1px solid #b5f451;
     background-color: rgba(247, 249, 251, 0);
+    text-align: center;
 }
 
 input:first-child {
