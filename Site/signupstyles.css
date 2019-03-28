@@ -78,16 +78,12 @@ form {
 	background-color: #1b1b1b;
 }
 
-form {
-	width: 75%;
-}
-
 label {
 	text-align: center;
 }
 
 legend {
-	font-size: 2.5rem;
+	font-size: 2rem;
 }
 
 .submit {
@@ -99,7 +95,7 @@ legend {
 input {
 	color: #F7F9FB;
 	width: 100%;
-	margin-bottom: 40px;
+	margin-bottom: 5px;
 	border: none;
 	border-bottom: 1px solid #b5f451;
 	background-color: rgba(247, 249, 251, 0);
