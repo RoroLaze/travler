@@ -37,6 +37,7 @@ header {
 }
 
 .centerh {
+
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -133,6 +134,8 @@ article {
     top: 50px;
     right: 60px;
     opacity: 0.5;
+
+    color: #01d0ca;
 }
 
 h2 {
@@ -141,4 +144,23 @@ h2 {
 
 .divStreetArt {
     background-color: #01d0ca;
+}
+
+h1.center {
+    font-family: edo;
+    color: rgba(238, 119, 23, 0.623);
+}
+
+
+@media (max-width:768px) {
+     article{
+        flex-direction: column;
+    }
+    .left {
+        flex-direction: column-reverse;
+
+    }
+    .container {
+        height: 60vh;
+    }
 }
