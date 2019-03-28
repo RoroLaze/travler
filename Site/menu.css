@@ -8,7 +8,7 @@ html {
 }
 
 nav {
-	z-index: 1;
+	z-index: 3;
 }
 
 .collapse .navbar-nav .connexion .nav-link {
