@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700');
 
 @font-face {
     font-family: edo;
@@ -13,19 +13,21 @@ body {
     margin: 0;
     background-color: rgba(255, 255, 255, 0);
     color: rgb(32, 32, 32);
-    font-family: 'Lato';
+    font-family: 'Raleway';
+    font-weight: 600;
     letter-spacing: 2px;
 }
 
 .logotravler {
-    height: 5vh;
+    height: 100px;
+    width: 100px;
     position: absolute;
     top: 20px;
     right: 20px;
     border: none;
 }
 .logotravler img {
-    width: 1%;
+    width: 100%;
 }
 .logotravler:hover {
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
@@ -88,6 +90,7 @@ div {
 .center {
     text-align: center;
     padding: 20px;
+    
 }
 
 .container40 {
@@ -160,9 +163,9 @@ article {
     -ms-flex-pack: start;
     justify-content: flex-start;
     width: 500px;
-    color: #050036;
+    color: #131313;
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 500;
 
 }
 
