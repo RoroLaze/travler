@@ -53,7 +53,6 @@ header {
     flex-wrap: wrap;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    padding: 0 100px;
 }
 
 .headerBox {
@@ -105,10 +104,7 @@ header {
     width: 100%;
     height: 500px;
     padding-top: 20px;
-
-
     margin-top: 0;
-
 }
 
 .carousel {
@@ -136,9 +132,9 @@ w-25
 .divStreetArt {
 
     color: #ffffff;
+    -webkit-transition: 0.4s all ease;
     transition: 0.4s all ease;
     -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
 
 }
@@ -146,6 +142,7 @@ w-25
 .divStreetArt:hover {
     text-decoration: none;
     color: black;
+    -webkit-transition: 0.4s all ease;
     transition: 0.4s all ease
 }
 
