@@ -192,6 +192,7 @@ footer img {
 	background-position: -100px 0;
 	color: white !important;
 	border-radius: 30px;
+	padding: 10px;
 	border: none;
 	-webkit-transition: background 1s ease;
 	transition: background 1s ease;
