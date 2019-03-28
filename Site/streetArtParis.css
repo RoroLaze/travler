@@ -28,12 +28,13 @@ body {
 header {
     background-image: url();
     color: white;
-    background-color: rgb(247, 247, 247);
+   background-image: url(video/Video_site.gif);
 }
 
 .container {
     height: 100vh;
     width: 100%;
+	
 }
 
 .centerh {
