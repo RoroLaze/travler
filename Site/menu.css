@@ -8,7 +8,7 @@ html {
 }
 
 nav {
-	z-index: 1;
+	z-index: 3;
 }
 
 .collapse .navbar-nav .connexion .nav-link {
@@ -193,7 +193,6 @@ footer img {
 	color: white !important;
 	border-radius: 30px;
 	border: none;
-	padding: 15px 10px;
 	-webkit-transition: background 1s ease;
 	transition: background 1s ease;
 }
