@@ -19,7 +19,6 @@ body {
     flex-direction: row;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-
 }
 
 .photo {
@@ -46,17 +45,12 @@ body {
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
     background-color: #1b1b1b;
-
-
-
 }
 
 form {
     width: 75%;
-    height: 100vh
+    height: 100vh;
 }
-
-
 
 label {
     text-align: center;

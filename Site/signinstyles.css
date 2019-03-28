@@ -13,8 +13,6 @@ body {
     border-radius: 5%;
 }
 
-
-
 .box {
     height: 100%;
     display: -webkit-box;
@@ -26,7 +24,6 @@ body {
     flex-direction: row;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-
 }
 
 .photo {
