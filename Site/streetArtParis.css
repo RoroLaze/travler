@@ -64,9 +64,6 @@ p {
 header {
 	background-image: url();
 	color: white;
-	background-image: url(video/Video_site.gif);
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 .container {
@@ -118,11 +115,17 @@ a {
 	border-radius: 7px;
 	text-decoration: none;
 	color: white;
+	transition: 0.6s all ease;
 }
 
 a:hover {
-	background-color: whit;
+	background-color: white;
 	color: black;
+	transition: 0.6s all ease;
+}
+
+.button {
+	background-color: #000000
 }
 
 article {
