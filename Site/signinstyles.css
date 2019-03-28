@@ -1,123 +1,121 @@
 body {
-    margin: 0;
-    font-family: 'Open Sans';
-    color: #ffffff;
-    background-color: #F7F9FB;
-    height: 100vh;
-    width: 100%;
-    overflow-y: hidden;
+	margin: 0;
+	font-family: 'Open Sans';
+	color: #ffffff;
+	background-color: #F7F9FB;
+	height: 100vh;
+	width: 100%;
+	overflow-y: hidden;
 }
 
 .nav-link {
-    background-color: #b5f451;
-    border-radius: 5%;
+	background-color: #b5f451;
+	border-radius: 5%;
 }
 
-
-
 .box {
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .photo {
-    background-image: url(photos/signup.jpg);
-    background-position: center;
-    background-size: cover;
-    background-color: black;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
+	background-image: url(photos/signup.jpg);
+	background-position: center;
+	background-size: cover;
+	background-color: black;
+	-ms-flex-preferred-size: 50%;
+	flex-basis: 50%;
 }
 
 .signupBox {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -ms-flex-line-pack: center;
-    align-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-    background-color: #1b1b1b;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-preferred-size: 50%;
+	flex-basis: 50%;
+	background-color: #1b1b1b;
 }
 
 form {
-    width: 75%;
+	width: 75%;
 }
 
 fieldset {
-    color: white;
-    height: auto;
+	color: white;
+	height: auto;
 }
 
 label {
-    text-align: center;
+	text-align: center;
 }
 
 legend {
-    font-size: 2.5rem;
+	font-size: 2.5rem;
 }
 
 .submit {
-    margin-top: 40px !important;
-    text-align: center;
-    width: 50%;
-    margin: auto;
-
+	margin-top: 40px !important;
+	text-align: center;
+	width: 50%;
+	margin: auto;
 }
 
 input {
-    color: #F7F9FB;
-    width: 100%;
-    margin-bottom: 40px;
-    border: none;
-    border-bottom: 1px solid #b5f451;
-    background-color: rgba(247, 249, 251, 0);
+	color: #F7F9FB;
+	width: 100%;
+	margin-bottom: 40px;
+	border: none;
+	border-bottom: 1px solid #b5f451;
+	background-color: rgba(247, 249, 251, 0);
 }
 
 input:first-child {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 input:focus {
-    outline: none;
+	outline: none;
+}
+
+.connexion {
+	padding: 10px
 }
 
 @media (max-width:768px) {
-    .photo {
-        display: none;
-    }
-
-    .signupBox {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -ms-flex-line-pack: center;
-        align-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-        background-color: #1b1b1b;
-        height: 100%;
-    }
-
+	.photo {
+		display: none;
+	}
+	.signupBox {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-ms-flex-line-pack: center;
+		align-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		-ms-flex-preferred-size: 100%;
+		flex-basis: 100%;
+		background-color: #1b1b1b;
+		height: 100%;
+	}
 }
