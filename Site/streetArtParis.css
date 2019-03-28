@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700');
 
-=======
-@import url('https://fonts.googleapis.com/css?family=Lato');
->>>>>>> 3a5e8cf46c0ffd9e903a039a205872bfcb45b121
 @font-face {
 	font-family: edo;
 	src: url(fonts/edo.ttf);
@@ -14,7 +10,6 @@ html {
 }
 
 body {
-<<<<<<< HEAD
     margin: 0;
     background-color: rgba(255, 255, 255, 0);
     color: rgb(32, 32, 32);
@@ -57,22 +52,6 @@ body {
       transform: translate3d(4px, 0, 0);
     }
   }
-=======
-	margin: 0;
-	background-color: rgb(255, 255, 255);
-	color: rgb(32, 32, 32);
-	font-family: 'Lato';
-	letter-spacing: 2px;
-}
-
-.logotravler {
-	width: 50px;
-	position: absolute;
-	top: 2%;
-	right: 2%;
-}
-
->>>>>>> 3a5e8cf46c0ffd9e903a039a205872bfcb45b121
 header {
 	background-image: url();
 	color: white;
@@ -106,13 +85,9 @@ div {
 }
 
 .center {
-<<<<<<< HEAD
     text-align: center;
     padding: 20px;
     
-=======
-	text-align: center;
->>>>>>> 3a5e8cf46c0ffd9e903a039a205872bfcb45b121
 }
 
 .container40 {
@@ -163,7 +138,6 @@ article {
 }
 
 .text {
-<<<<<<< HEAD
     margin: 10%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -180,19 +154,6 @@ article {
     font-size: 1.2rem;
     font-weight: 500;
 
-=======
-	margin: 150px;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	-webkit-box-pack: start;
-	-ms-flex-pack: start;
-	justify-content: flex-start;
->>>>>>> 3a5e8cf46c0ffd9e903a039a205872bfcb45b121
 }
 
 .chiffre {
