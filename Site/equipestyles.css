@@ -46,7 +46,7 @@ body {
     -ms-flex-pack: center;
     justify-content: center;
     justify-items: center;
-    width: 70%;
+    width: 85%;
     height: 40vh;
 }
 
@@ -75,7 +75,7 @@ p {
     align-items: flex-end;
 }
 
-p:first-child {
+.text{
     font-size: 1.5em;
     font-family: "Anglena", "sans-serif";
 }

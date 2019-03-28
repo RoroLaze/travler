@@ -201,7 +201,11 @@ footer img {
     background-position: 0 0;
 }
 
-@media (max-width:1000px) {
+@media (max-width:992px) {
+    .where{
+    padding-top: 150px;
+    font-size: 2.5rem;
+    }
 
     .logo {
         visibility: hidden;
