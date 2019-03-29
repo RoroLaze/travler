@@ -33,7 +33,9 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-
+                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">LANGUES</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <a class="dropdown-item" href="anglais/signup_eng.html">Anglais</a> <a class="dropdown-item" href="#">Français</a> </div>
+                </li>
             </div>
         </nav>
 
@@ -43,18 +45,18 @@
                 <form action="signup.php" method="POST">
                     <fieldset>
                         <legend>SIGN UP</legend>
-                        <label>  Nom </label>
-                        <br><input type="text" name="nom" value="nom" required> <br>
+                        <label>  Nom* </label>
+                        <br><input type="text" name="nom" placeholder="Nom" required> <br>
                         <label>  Prénom </label>
-                        <br><input type="text" name="prenom" value="prenom" required>
+                        <br><input type="text" name="prenom" placeholder="Prénom" required>
                         <label>  Pseudo </label>
-                        <br><input type="text" name="pseudo" value="pseudo" required>
+                        <br><input type="text" name="pseudo" placeholder="Pseudo" required>
                         <label>  E-mail </label>
-                        <br><input type="text" name="email" value="email" required>
+                        <br><input type="text" name="email" placeholder="Email" required>
                         <label>  Mot de passe </label>
-                        <br><input type="password" name="mdp" value="mdp" required>
+                        <br><input type="password" name="mdp" placeholder="Mot de passe" required>
                         <label>  Verification de Mot de passe </label>
-                        <br><input type="password" name="mdp2" value="mdp2" required>
+                        <br><input type="password" name="mdp2" placeholder="Mot de passe" required>
                         <p class="submit"><input type="submit" value="Submit" class="connexion"></p>
                     </fieldset>
                 </form>
