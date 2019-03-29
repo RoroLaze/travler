@@ -38,6 +38,7 @@ body {
 	margin: 0;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+
 }
 
 .top {
@@ -74,11 +75,14 @@ p {
 	-webkit-box-align: end;
 	-ms-flex-align: end;
 	align-items: flex-end;
+
 }
 
 .text {
-	font-size: 1.5em;
+	font-size: 2em;
 	font-family: "Lato", "sans-serif";
+	font-family: Anglena;
+
 }
 
 .rond {
@@ -145,4 +149,12 @@ p {
 
 .helene:hover {
 	background-image: url(photos/equipe/Images_reduites/HeleneCouleur.png);
+}
+
+@media (max-width:970px) {
+	.text {
+		font-size: 1.3rem;
+	}
+
+
 }
