@@ -1,61 +1,61 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
-	<title>Accueil</title>
+	<title>Home</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="../styles.css">
 	<script src="https://www.amcharts.com/lib/4/core.js"></script>
 	<script src="https://www.amcharts.com/lib/4/maps.js"></script>
 	<script src="https://www.amcharts.com/lib/4/geodata/worldHigh.js"></script>
 	<script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
-	<link rel="stylesheet" href="menu.css"> </head>
+	<link rel="stylesheet" href="../menu.css"> </head>
 
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a href="#"><img src="photos/logo1petit.png" alt="" class="logo"></a> <a class="navbar-brand" href="#"><span class="travler">travler</span><span class="company">.COMPANY</span></a>
+		<a href="#"><img src="../photos/logo1petit.png" alt="" class="logo"></a> <a class="navbar-brand" href="#"><span class="travler">travler</span><span class="company">.COMPANY</span></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 		<div class="collapse navbar-collapse" id="navbarNavDropdown">
 			<ul class="navbar-nav">
-				<li class="nav-item active"> <a class="nav-link" href="#">ACCUEIL<span class="sr-only">(current)</span></a> </li>
-				<li class="nav-item"> <a class="nav-link" href="equipe.html">START-UP</a> </li>
-				<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">LANGUES</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <a class="dropdown-item" href="anglais/index_eng.html">Anglais</a> <a class="dropdown-item" href="#">Français</a> </div>
+				<li class="nav-item active"> <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a> </li>
+				<li class="nav-item"> <a class="nav-link" href="equipe_eng.html">START-UP</a> </li>
+				<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">LANGUAGES</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <a class="dropdown-item" href="#">English</a> <a class="dropdown-item" href="../index.html">French</a> </div>
 				</li>
-				<li class="nav-item "> <a class="nav-link connexion" href="signin.html">CONNEXION</a> </li>
+				<li class="nav-item "> <a class="nav-link connexion" href="signin_eng.html">LOGIN</a> </li>
 			</ul>
 		</div>
 		</nav>
 		<header>
 			<div class="center_header">
-				<p class="where">Des visites selon des thèmes,
-					<br> dans toutes les villes du monde</p>
+				<p class="where">Visits according to themes,
+					<br> in every city in the world</p>
 				<div class="headerBoxes">
 					<div class="headerBox">
-						<p>Des lieux incontournables</p> <img src="photos/phone.svg" alt=""> </div>
+						<p>Places not to be missed</p> <img src="../photos/phone.svg" alt=""> </div>
 					<div class="headerBox">
-						<p>Des visites originales dans tout le monde</p> <img src="photos/globe.svg" alt=""> </div>
+						<p>Original visits all over the world</p> <img src="../photos/globe.svg" alt=""> </div>
 					<div class="headerBox">
-						<p>Une expérience unique</p> <img src="photos/destination.svg" alt=""> </div>
+						<p>A unique experience</p> <img src="../photos/destination.svg" alt=""> </div>
 				</div>
 			</div>
 		</header>
 		<article class="carteSection">
 			<div class="choisirBox">
-				<p class="choisir"> Regardez notre catalogue de visites</p>
+				<p class="choisir">Have a look at our catalogue of visits </p>
 			</div>
 			<div id="chartdiv"> </div>
 			<div class="visites"> </div>
 		</article>
 		<article class="videos img_video">
 			<div class="choisirBox">
-				<p class="choisir">Allez voir nos vidéos promotionnelles !</p>
+				<p class="choisir">Check out our promotional videos</p>
 			</div>
 		</article>
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -75,8 +75,8 @@
 		<footer>
 			<div class="footerBox footerBox1"> <a href="#"><span class="travlerbot">travler</span><span class="companybot">.COMPANY</span></a>
 				<br>
-				<p>Nous sommes Travler une start up créée par des étudiants en DUT MMI (Métiers du Multimédia et de l’Internet).
-					<br> Nous vous proposons des visites originales et interactives.
+				<p>We are working on a start-up created by students in DUT MMI.
+					<br> We offer you original and interactive tours.
 					<br> </p>
 				<p>&copy; 2019 travler-company.com</p>
 			</div>
@@ -84,26 +84,26 @@
 				<p class="footerBoxTitle">CONTACT</p>
 				<p>travler.company@gmail.com</p>
 				<a href="https://www.instagram.com/travler.company/?hl=en" target="_blank">
-					<p><img src="photos/instagram.svg">Instagram</p>
+					<p><img src="../photos/instagram.svg">Instagram</p>
 				</a>
 				<a href="https://www.facebook.com/Travler.Company/?ref=bookmarks" target="_blank">
-					<p><img src="photos/Facebook.svg">Facebook</p>
+					<p><img src="../photos/Facebook.svg">Facebook</p>
 				</a>
 			</div>
 			<div class="footerBox footerBox3">
-				<p class="footerBoxTitle">CONNEXION</p>
-				<p> <a class="connexionbot" href="signin.html">CONNEXION</a> </p>
+				<p class="footerBoxTitle">LOGIN</p>
+				<p> <a class="connexionbot" href="signin_eng.html">LOGIN</a> </p>
 			</div>
         </footer> 
     </body>
-<script type="text/javascript" src="code.js"></script>
+<script type="text/javascript" src="../code.js"></script>
 <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
 <script>
 	var c = 0;
 	$("circle").click(function () {
 		c++;
 		if (c == 1) {
-			$(".visites").append("<a href='streetArtParis.html' class='divStreetArt'><div ><p class='txt_StreetArt'>Visitez Paris à travers le Street Art</p></div></a>");
+			$(".visites").append("<a href='streetArtParis_eng.html' class='divStreetArt'><div ><p class='txt_StreetArt'>Visitez Paris à travers le Street Art</p></div></a>");
 			console.log("ok : " + c);
 		}
 	});
