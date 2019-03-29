@@ -14,16 +14,16 @@ body {
 }
 
 .box {
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
 	height: 100%;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -80,10 +80,14 @@ legend {
 }
 
 .submit {
-margin-top: 40px !important;
+	margin-top: 40px !important;
 	text-align: center;
 	width: 50%;
 	margin: auto;
+}
+
+.connexion:hover {
+	cursor: pointer;
 }
 
 input {
@@ -118,6 +122,10 @@ input:focus {
 
 .connexion {
 	padding: 10px
+}
+
+.fieldset_inscription {
+	margin-top: 75px
 }
 
 @media (max-width:768px) {
