@@ -22,6 +22,7 @@ p {
 	color: #181818;
 }
 
+
 .logotravler {
 	height: 100px;
 	width: 100px;
@@ -39,6 +40,7 @@ p {
 	animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
 	transform: translate3d(0, 0, 0);
 	perspective: 1000px;
+	background-color: #65f5f000;
 }
 
 @keyframes shake {
@@ -106,6 +108,7 @@ div {
 .container60 {
 	height: 60%;
 }
+
 
 h1 {
 	font-size: 3em;
@@ -214,15 +217,16 @@ h1.center {
 	h1 {
 		font-size: 1.3rem;
 	}
-
-
 }
-
-
 
 main {
 	background-image: url(photos/rue\ blanc.jpg);
 	background-attachment: fixed;
 	background-size: contain;
 
+}
+
+.container60 h1 {
+	font-size: 5rem;
+	margin-bottom: 80px;
 }
