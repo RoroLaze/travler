@@ -83,6 +83,11 @@ label {
 
 legend {
 	font-size: 2rem;
+    padding-top: 20%;
+}
+
+.etoile{
+    color: red;
 }
 
 .submit {
