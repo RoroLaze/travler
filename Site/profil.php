@@ -68,13 +68,3 @@
 
 
 
-
-
-<?php 
-
-echo 'BOnjour'
-
-
-
-
-?>
