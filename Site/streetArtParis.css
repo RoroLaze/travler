@@ -1,232 +1,290 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700');
 @font-face {
-	font-family: edo;
-	src: url(fonts/edo.ttf);
+    font-family: edo;
+    src: url(fonts/edo.ttf);
 }
 
 html {
-	scroll-behavior: smooth;
-	background-color: rgb(0, 0, 0);
+    scroll-behavior: smooth;
+    background-color: rgb(0, 0, 0);
 }
 
 body {
-	margin: 0;
-	background-color: rgba(0, 0, 0, 0);
-	color: rgb(255, 255, 255);
-	font-family: 'Raleway';
-	font-weight: 600;
-	letter-spacing: 2px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway';
+    font-weight: 600;
+    letter-spacing: 2px;
 }
 
 p {
-	color: #181818;
+    color: #181818;
 }
 
 
 .logotravler {
-	height: 100px;
-	width: 100px;
-	position: absolute;
-	top: 20px;
-	right: 20px;
-	border: none;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
 }
 
 .logotravler img {
-	width: 100%;
+    width: 100%;
 }
 
 .logotravler:hover {
-	animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
-	transform: translate3d(0, 0, 0);
-	perspective: 1000px;
-	background-color: #65f5f000;
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    perspective: 1000px;
+    background-color: #65f5f000;
 }
 
 @keyframes shake {
-	10%,
-	90% {
-		transform: translate3d(-1px, 0, 0);
-	}
-	20%,
-	80% {
-		transform: translate3d(2px, 0, 0);
-	}
-	30%,
-	50%,
-	70% {
-		transform: translate3d(-4px, 0, 0);
-	}
-	40%,
-	60% {
-		transform: translate3d(4px, 0, 0);
-	}
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
 }
 
 header {
-	background-image: url(video/Video_site.gif);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	height: 100vh;
-	text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
 }
 
+video#bgvid {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+
+    z-index: -100;
+    background: url(photos/Trvaler%20Visite.jpg) no-repeat;
+    background-size: cover;
+}
+
+video#bgvid {
+    transition: 1s opacity;
+}
+
+.stopfade {
+    opacity: .5;
+}
+
+#vidpause {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: transparent;
+    color: white;
+    font-family: "Lato";
+    border: solid 2px white;
+    border-radius: 10%;
+    transition: 0.8s all ease;
+}
+
+#vidpause:hover {
+    margin-top: 20px;
+    padding: 30px;
+    background-color: white;
+    color: #000000;
+    font-family: "Lato";
+    border: solid 2px white;
+    border-radius: 10%;
+    transition: 0.8s all ease;
+    font-size: 1.5em;
+    cursor: pointer
+}
+
+@media screen and (max-device-width: 800px) {
+    html {
+        background: url(photos/Trvaler%20Visite.jpg) #000 no-repeat center center fixed;
+    }
+    #bgvid {
+        display: none;
+    }
+}
+
+
+
 .container {
-	height: 100vh;
-	width: 100%;
+    height: 100vh;
+    width: 100%;
 }
 
 .centerh {
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 div {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .center {
-	text-align: center;
-	padding: 20px;
+    text-align: center;
+    padding: 20px;
 }
 
 .container40 {
-	height: 40%;
+    height: 40%;
 }
 
 .container60 {
-	height: 60%;
+    height: 60%;
 }
 
 
 h1 {
-	font-size: 3em;
-	margin-top: 0;
-	margin-bottom: 2em;
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 2em;
 }
 
 a {
-	border: 2px white solid;
-	padding: 7px;
-	border-radius: 7px;
-	text-decoration: none;
-	color: white;
-	transition: 1s;
+    border: 2px white solid;
+    padding: 7px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+    transition: 1s;
 }
 
 a:hover {
-	background-color: white;
-	color: black;
+    background-color: white;
+    color: black;
 }
 
 article {
-	width: 100%;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: justify;
-	-ms-flex-pack: justify;
-	justify-content: space-between;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
 }
 
 .art {
-	-ms-flex-preferred-size: 55%;
-	flex-basis: 55%;
-	width: 100%;
+    -ms-flex-preferred-size: 55%;
+    flex-basis: 55%;
+    width: 100%;
 }
 
 .art img {
-	width: 80%;
+    width: 80%;
 }
 
 .text {
-	margin: 10%;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	-webkit-box-pack: start;
-	-ms-flex-pack: start;
-	justify-content: flex-start;
-	width: 500px;
-	font-size: 1.2rem;
-	font-weight: 500;
+    margin: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    width: 500px;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .chiffre {
-	font-family: edo;
-	width: 100%;
-	font-size: 8rem;
-	margin: 0;
-	position: relative;
-	top: 50px;
-	right: 60px;
-	opacity: 0.5;
-	color: #01d0ca;
+    font-family: edo;
+    width: 100%;
+    font-size: 8rem;
+    margin: 0;
+    position: relative;
+    top: 50px;
+    right: 60px;
+    opacity: 0.5;
+    color: #01d0ca;
 }
 
 h2 {
-	width: 100%;
+    width: 100%;
 }
 
 .divStreetArt {
-	background-color: #01d0ca;
+    background-color: #01d0ca;
 }
 
 h1.center {
-	font-family: edo;
-	color: rgba(238, 119, 23, 0.623);
+    font-family: edo;
+    color: rgba(238, 119, 23, 0.623);
 }
 
 @media (max-width:768px) {
-	article {
-		flex-direction: column;
-	}
-	.left {
-		flex-direction: column-reverse;
-	}
-	.chiffre{
-		position: initial;
-		text-align: center;
+    article {
+        flex-direction: column;
+    }
+    .left {
+        flex-direction: column-reverse;
+    }
+    .chiffre {
+        position: initial;
+        text-align: center;
 
-	}
-	.text {
-		width: 80%;
-	}
-	h1 {
-		font-size: 2rem;
-	}
+    }
+    .text {
+        width: 80%;
+    }
+    h1 {
+        font-size: 2rem;
+    }
 
 }
 
 @media (max-width:400px) {
-	h1 {
-		font-size: 1.3rem;
-	}
+    h1 {
+        font-size: 1.3rem;
+    }
 }
 
 main {
-	background-image: url(photos/rue\ blanc.jpg);
-	background-attachment: fixed;
-	background-size: contain;
+    background-image: url(photos/rue\ blanc.jpg);
+    background-attachment: fixed;
+    background-size: contain;
 
 }
 
 .container60 h1 {
-	font-size: 5rem;
-	margin-bottom: 80px;
+    font-size: 5rem;
+    margin-bottom: 80px;
 }

@@ -1,184 +1,190 @@
 body {
-	margin: 0 auto;
-	font-family: 'Open Sans';
-	color: #ffffff;
-	background-color: #F7F9FB;
-	overflow-x: hidden;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: 0 auto;
+    font-family: 'Open Sans';
+    color: #ffffff;
+    background-color: #F7F9FB;
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 header {
-	width: 100%;
-	height: 100vh;
-	color: #F7F9FB;
-	background-image: url(photos/imgHeader2.jpg);
-	background-size: cover;
-	background-position: center;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	-ms-flex-pack: distribute;
+    width: 100%;
+    height: 100vh;
+    color: #F7F9FB;
+    background-image: url(photos/imgHeader2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -ms-flex-pack: distribute;
 }
 
 .center_header {
-	margin: auto;
+    margin: auto;
 }
 
 .where {
-	font-family: 'Anglena';
-	text-align: center;
-	padding-top: 150px;
-	font-size: 3rem;
-	color: #ffffff;
+    font-family: 'Anglena';
+    text-align: center;
+    padding-top: 150px;
+    font-size: 3rem;
+    color: #ffffff;
 }
 
 .headerBoxes {
-	width: 100%;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	-ms-flex-pack: distribute;
-	justify-content: space-around;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
 }
 
 .headerBox {
-	width: 30%;
-	height: 30%;
-	border-radius: 20px;
-	padding: 30px;
-	text-align: center;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	-ms-flex-pack: distribute;
-	justify-content: space-around;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
+    width: 30%;
+    height: 30%;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .headerBox img {
-	width: 80%;
+    width: 80%;
 }
 
 .choisirBox {
-	background-color: #F7F9FB;
-	padding: 20px;
-	border-top: #b1dd04 solid 5px;
+    background-color: #F7F9FB;
+    padding: 20px;
+    border-top: #b1dd04 solid 5px;
 }
 
 .choisir {
-	color: #b1dd04;
-	margin-bottom: auto;
-	text-align: center;
-	font-size: 1.5rem;
-	background-color: #F7F9FB;
-	font-family: Anglena;
-	font-size: 2rem;
+    color: #b1dd04;
+    margin-bottom: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #F7F9FB;
+    font-family: Anglena;
+    font-size: 2rem;
 }
 
 .carteSection {
-	height: auto;
+    height: auto;
 }
 
 .carte {
-	background-color: white;
+    background-color: white;
 }
 
 #chartdiv {
-	margin-top: 0;
-	width: 100%;
-	height: 50vh;
-	margin-top: 0;
+    margin-top: 0;
+    width: 100%;
+    height: 50vh;
+    margin-top: 0;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-	height: 50px;
-	width: 50px;
-	outline: #b1dd04;
-	background-size: 100%, 100%;
-	border-radius: 50%;
-	background-image: none;
+    height: 50px;
+    width: 50px;
+    outline: #b1dd04;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    background-image: none;
 }
 
 .carousel-control-next-icon:after {
-	content: url(photos/next.svg);
-	font-size: 2rem;
-	font-weight: 800;
-	color: #b1dd04;
+    content: url(photos/next.svg);
+    font-size: 2rem;
+    font-weight: 800;
+    color: #b1dd04;
 }
 
 .carousel-control-prev-icon:after {
-	content: url(photos/previous.svg);
-	font-size: 2rem;
-	font-weight: 800;
-	color: #b1dd04;
+    content: url(photos/previous.svg);
+    font-size: 2rem;
+    font-weight: 800;
+    color: #b1dd04;
 }
 
 .carousel {
-	background-color: #F7F9FB;
-	padding-bottom: 20px;
-	padding-top: 20px;
-	margin-bottom: 100px;
+    background-color: #F7F9FB;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 100px;
 }
 
 .d-block {
-	width: 50%;
-	margin: auto;
-	-webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
-	box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
-	border: #00c1c0 5px solid;
+    width: 50%;
+    margin: auto;
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
+    border: #00c1c0 5px solid;
 }
 
 .img_video {
-	background-image: url(video/Screen%20Vid%C3%A9o%20Travler.jpg);
-	background-size: cover;
-	background-position: center;
+    background-image: url(video/Screen%20Vid%C3%A9o%20Travler.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .divStreetArt {
-	color: #ffffff;
-	-webkit-transition: 0.4s all ease;
-	transition: 0.4s all ease;
-	font-size: 1.5em;
-	padding: 20px;
+    color: #ffffff;
+    -webkit-transition: 0.4s all ease;
+    transition: 0.4s all ease;
+    font-size: 1.5em;
+    padding: 20px;
 }
 
 .divStreetArt:hover {
-	text-decoration: none;
-	color: black;
-	-webkit-transition: 0.4s all ease;
-	transition: 0.4s all ease
+    text-decoration: none;
+    color: black;
+    -webkit-transition: 0.4s all ease;
+    transition: 0.4s all ease
 }
 
 .visites {
-	text-align: center;
-	width: 100%;
-	margin: auto;
-	font-family: 'anglena';
-	text-decoration: none;
-	margin-top: 0;
-	background-color: #F7F9FB;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    font-family: 'anglena';
+    text-decoration: none;
+    margin-top: 0;
+    background-color: #F7F9FB;
 }
+
+
 
 .txt_StreetArt {
-	background-color: #00c1c0;
-	padding: 20px;
-	width: 75%;
-	margin: auto;
-	border-radius: 100px;
+    background-color: #00c1c0;
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+    border-radius: 100px;
+    text-align: center;
+
 }
 
+
+
 .fieldset_inscription {
-	padding-top: 20px
+    padding-top: 20px
 }
