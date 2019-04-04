@@ -353,12 +353,16 @@ h1.center {
         margin-left: auto;
     }
 
+    .center20 {
+        margin: 0;
+    }
+
 
 
 
 
     a.logotravler {
-        width: 70px;
+        width: 60px;
         align-items: center;
         display: flex;
         border: none;

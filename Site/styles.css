@@ -183,6 +183,17 @@ header {
 
 }
 
+@media (max-width:768px) {
+    p.txt_StreetArt {
+        width: 100%;
+        font-size: 1em;
+    }
+    div.visite_cache {
+        font-size: 0.7em;
+    }
+}
+
+
 
 
 .fieldset_inscription {
