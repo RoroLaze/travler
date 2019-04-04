@@ -22,11 +22,11 @@ p {
     color: #181818;
 }
 
-.active{
-    background-color: lightgray;  
+.active {
+    background-color: lightgray;
 }
 
-.selection{
+.selection {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -39,9 +39,7 @@ p {
     justify-content: space-around;
 }
 
-.ligne{
-    
-}
+.ligne {}
 
 .logotravler {
     height: 100px;
@@ -336,6 +334,33 @@ h1.center {
     h1 {
         font-size: 2rem;
     }
+
+    .selection {
+
+        display: block
+    }
+
+    .ligne {
+        margin: 20px;
+        display: block
+    }
+
+        {
+        margin: auto
+    }
+
+
+
+    a.logotravler {
+        width: 60px;
+        align-items: center;
+        display: flex;
+        border: none
+    }
+
+
+
+
 
 }
 
