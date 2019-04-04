@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="streetArtParis.css" rel="stylesheet">
+    <title>STREET-ART PARIS</title>
+</head>
+
+<body>
+    <header>
+        <div class="container18">
+            <a href="index.html" class="logotravler"><img src="photos/logo1petit.png" alt=""></a>
+        </div>
+        <div class="container82">
+            <h1>
+                STREET ART - PARIS
+            </h1>
+            <div class="selection">
+                <a class="button ligne" href="streetArtParis.html">13ème arrondissement</a>
+                <a class="button ligne active" href="#start">Rue de Ménilmontant</a>
+                <a class="button ligne" href="streetArtParis_chap3.html">Rue des Cascades</a>
+                <a class="button ligne" href="streetArtParis_chap4.html">Griset City, Rue Oberkampf</a>
+            </div>
+            <a class="button center20" href="#start">COMMENCER LA VISITE !</a>
+        </div>
+        <video autoplay loop poster="photos/Trvaler%20Visite.jpg" id="bgvid">
+        <source src="video/Travler_Site.mp4" type="video/mp4">
+        </video>
+    </header>
+
+    <main>
+        <div class="container centerh" id="start">
+            <h1 class="center">Rue Ménilmontant</h1>
+            <p class="center">La Miroiterie, le Street art illumine les murs de ce garden bar. Prenez un verre tout en contemplant les oeuvres colorées et originales.
+                <br>
+                <br>
+                <br> Métro : Ménilmontant, ligne 2
+                <br> Bus : 96
+            </p>
+        </div>
+
+        <article class="left">
+            <div class="art"><img src="photos/Rue Ménilmontant/IMG_20180923_151618-Récupéré.png" alt=""></div>
+            <div class="text">
+                <p class="chiffre">01.</p>
+                <p class="">Le corps humain est amour. C’est encore plus vrai à Ménilmontant.
+                </p>
+            </div>
+        </article>
+
+        <article class="right">
+            <div class="text">
+                <p class="chiffre">02.</p>
+                <p class="">Le Dragon Chinois est une créature fantastique. Un symbole puissant de pouvoir favorable dans la culture et l'art chinois, c'est la personnification du concept du yang et associé à l'eau.
+                </p>
+            </div>
+            <div class="art"><img src="photos/Rue Ménilmontant/IMG_20180923_174202-Récupéré.png" alt=""></div>
+        </article>
+
+        <article class="left">
+            <div class="art"><img src="photos/Rue Ménilmontant/IMG_20180923_174348-Récupéré.png"></div>
+            <div class="text">
+                <p class="chiffre">03.</p>
+                <p class="">Un homme avalé par une baleine. L’artiste semble s’être inspiré de Pinocchio pour son oeuvre.
+                </p>
+            </div>
+        </article>
+
+        <article class="right">
+            <div class="text">
+                <p class="chiffre">04.</p>
+                <p class="">Son regard a happé les plus braves, figeant leurs visages ébahis et silencieux, dans l’éternité de la pierre. Les mortels ne peuvent que craindre la Méduse.</p>
+            </div>
+            <div class="art"><img src="photos/Rue Ménilmontant/IMG_20180923_174407-Récupéré.png" alt=""></div>
+        </article>
+
+
+        <article class="left">
+            <div class="art"><img src="photos/Rue Ménilmontant/IMG_20180923_174439-Récupéré.png" alt=""></div>
+            <div class="text">
+                <p class="chiffre">05.</p>
+                <p class="">Nous dissimulons tous en nous une flamme passionnelle que nous enfouissons loin du regard des autres.</p>
+            </div>
+        </article>
+
+        <article class="right">
+            <div class="text">
+                <p class="chiffre">06.</p>
+                <p class="">Cette fresque colorée et étonnante, laisse libre cours à l’imagination.
+                </p>
+            </div>
+            <div class="art"><img src="photos/Rue Ménilmontant/IMG_20180923_175036-Récupéré.png"></div>
+        </article>
+    </main>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal().reveal('.left', {
+            delay: 500
+        });
+        ScrollReveal().reveal('.right', {
+            delay: 500
+        });
+    </script>
+</body>
+</html>
