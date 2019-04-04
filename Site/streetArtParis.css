@@ -18,6 +18,10 @@ body {
     letter-spacing: 2px;
 }
 
+.button {
+    padding: 20px;
+}
+
 p {
     color: #181818;
 }
@@ -341,21 +345,25 @@ h1.center {
     }
 
     .ligne {
-        margin: 20px;
-        display: block
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: block;
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
     }
 
-        {
-        margin: auto
-    }
+
 
 
 
     a.logotravler {
-        width: 60px;
+        width: 70px;
         align-items: center;
         display: flex;
-        border: none
+        border: none;
+        position: inherit;
+        margin-top: 10px;
     }
 
 
