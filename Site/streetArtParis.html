@@ -33,7 +33,7 @@
                 <a class="button " href="#">Griset City, Rue Oberkampf</a>
             </div>
             <a class="button center" href="#start">COMMENCER LA VISITE !</a>
-            <button id="vidpause" class="button center">Play</button>
+
         </div>
         <video autoplay loop poster="photos/Trvaler%20Visite.jpg" id="bgvid">
  
@@ -428,30 +428,7 @@
             delay: 500
         });
     </script>
-    <script>
-        var vid = document.getElementById("bgvid");
-        var pauseButton = document.getElementById("vidpause");
 
-        function vidFade() {
-            vid.classList.add("stopfade");
-        }
-        vid.addEventListener('ended', function() {
-            // only functional if "loop" is removed
-            vid.pause();
-            // to capture IE10
-            vidFade();
-        });
-        pauseButton.addEventListener("click", function() {
-            vid.classList.toggle("stopfade");
-            if (vid.paused) {
-                vid.play();
-                pauseButton.innerHTML = "Pause";
-            } else {
-                vid.pause();
-                pauseButton.innerHTML = "Play";
-            }
-        })
-    </script>
 </body>
 
 
