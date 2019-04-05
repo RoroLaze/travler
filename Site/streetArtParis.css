@@ -18,15 +18,19 @@ body {
     letter-spacing: 2px;
 }
 
+.button {
+    padding: 20px;
+}
+
 p {
     color: #181818;
 }
 
-.active{
-    background-color: lightgray;  
+.active {
+    background-color: lightgray;
 }
 
-.selection{
+.selection {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -39,9 +43,7 @@ p {
     justify-content: space-around;
 }
 
-.ligne{
-    
-}
+.ligne {}
 
 .logotravler {
     height: 100px;
@@ -336,6 +338,41 @@ h1.center {
     h1 {
         font-size: 2rem;
     }
+
+    .selection {
+
+        display: block
+    }
+
+    .ligne {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: block;
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .center20 {
+        margin: 0;
+    }
+
+
+
+
+
+    a.logotravler {
+        width: 60px;
+        align-items: center;
+        display: flex;
+        border: none;
+        position: inherit;
+        margin-top: 10px;
+    }
+
+
+
+
 
 }
 
